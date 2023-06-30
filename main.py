@@ -7,7 +7,7 @@ import json
 city = ''
 bot = Bot('YOUR_TOKEN_HERE')
 dp = Dispatcher(bot)
-API = '937c436168e04ddb0b394d51605288dd'
+API = 'YOUR_OPENWEATHER_API_KEY'
 @dp.message_handler(commands=['start'])
 async def hi(message: types.Message):
     global city
